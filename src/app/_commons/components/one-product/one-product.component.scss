@@ -1,0 +1,229 @@
+.content-one-product {
+	width: 100%;
+	margin-top: 3.8125rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	.pow-global {
+			display: flex;
+			max-width: 106.5625rem;
+			height: auto;
+
+			.pow-previews-container {
+					margin: 0 2em 0 2em;
+					height: 100%;
+					width: 100%;
+					display: flex;
+					justify-content: center;
+
+					.pow-align-previews {
+							display: flex;
+							flex-direction: column;
+
+							.pow-main-img {
+									display: flex;
+									background-color: #A5E7B2;
+									width: 100%;
+									height: 20.625rem;
+									border-radius: 0.6875rem;
+									background-size: 60%;
+									background-repeat: no-repeat;
+									background-position: center;
+							}
+
+							.pow-other-img {
+									display: flex;
+									width: 100%;
+									height: auto;
+									margin-top: 1.375rem;
+									border-radius: 0.6875rem;
+
+									.pow-secondary-img {
+											width: 12.5rem;
+											height: 12.5rem;
+
+											.pow-img {
+													width: 12.5rem;
+													height: 12.5rem;
+													background-size: 60%;
+													background-repeat: no-repeat;
+													background-position: center;
+													border-radius: 0.6875rem;
+											}
+									}
+							}
+					}
+			}
+
+			.pow-info-container {
+					margin: 0 2em 0 2em;
+					width: 100%;
+					height: 100%;
+					display: flex;
+					justify-content: center;
+
+					.pow-align-info {
+							display: flex;
+							flex-direction: column;
+							width: 25rem;
+
+							.pow-title {
+									text-transform: uppercase;
+									font-size: 2rem;
+									height: 1em;
+							}
+
+							.pow-price {
+									font-size: 1.5rem;
+									height: 4em;
+									font-size: 1.5em;
+									height: 1em;
+							}
+
+							.pow-quantity-container {
+									width: 100%;
+									display: flex;
+									justify-content: center !important;
+									text-align: center !important;
+
+									// ::ng-deep .mat-button-toggle {
+									// 		margin: 4.0625rem 1.3831rem 0 0;
+									// 		height: auto;
+									// 		width: 7.4112rem !important;
+									// 		background-color: #F6F6F6;
+									// 		border: none;
+									// 		border-radius: 0.6875rem;
+									// 		overflow: hidden;
+							
+									// 		&:nth-child(3) {
+									// 				margin: 4.0625rem 0 0 0;
+									// 		}
+									// }
+							
+									// ::ng-deep .mat-button-toggle-checked {
+									// 		background-color: #2FB149;
+									// 		color: white !important;
+									// }
+
+									.pow-no-border {
+											border: none;
+									}
+							}
+
+							.pow-add-amount {
+									width: 25rem !important;
+									height: 3.25rem;
+									background-color: #F6F6F6;
+									margin: 1.375rem 0 0 0;
+									border-radius: 0.6875rem;
+
+									.pow-amount-container {
+											display: block;
+											text-align: right;
+											height: 3.25rem;
+											width: auto;
+
+											p {
+													display: flex;
+													position: absolute;
+													width: auto;
+													height: 3.25rem;
+													justify-content: center;
+													align-items: center;
+													margin-left: 1.42rem !important;
+											}
+
+											.pow-buttons-container {
+													display: flex;
+													align-items: center !important;
+													justify-content: right !important;
+
+													.pow-button {
+															margin: 0 0.6em 0 0.6em !important;
+															width: 3.25rem;
+															height: 3.25rem;
+													}
+											}
+
+									}
+							}
+
+							.pow-add-to-cart {
+									width: 100%;
+									height: 3.25rem;
+									margin: 1.375rem 0 0 0;
+									border-radius: 0.6875rem;
+									background-color: #2FB149;
+									color: white;
+									font-weight: bold;
+									border: none;
+							}
+
+							.pow-description-container {
+									margin: 2.5rem 0 0 0 !important;
+
+									.pow-description {
+											height: 10em;
+											text-align: justify;
+									}
+							}
+
+							.pow-title-recipes {
+									margin: 4.625rem 0 3.75rem 0;
+							}
+
+							.pow-recipes-container {
+									width: 100%;
+									height: 3.25rem;
+									display: flex;
+
+									.pow-recipes {
+											display: flex;
+											justify-content: center;
+											align-items: center;
+											margin: 0 1.3831rem 0 0;
+											width: 7.4112rem;
+											height: 3.25rem;
+											background-color: #2FB149;
+											border: none;
+											border-radius: 0.6875rem;
+											overflow: hidden;
+
+											&:nth-child(3) {
+													margin: 0 0 0 0;
+
+											}
+
+											.pow-recipes-content {
+													color: #fff;
+													text-decoration: none;
+											}
+									}
+							}
+					}
+			}
+	}
+
+	.pow-container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			margin-top: 1.25rem;
+
+			.pow-align {
+					display: inline-block;
+					max-width: 77.8125rem !important;
+					width: 77.8125rem;
+					text-align: center;
+
+					.pow-information-align {
+							width: 87%;
+							display: inline-block;
+							height: auto;
+					}
+			}
+	}
+}

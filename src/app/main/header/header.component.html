@@ -1,0 +1,10 @@
+<header class="crash-header">
+    <h1 class="crash-title-content">
+        CHADNESS
+    </h1>
+    <div class="crash-header-content">
+        <div class="crash-link-container" *ngFor="let l of links">
+            <a [routerLink]="l.path" class="link">{{ l.name }}</a>
+        </div>
+    </div>
+</header>

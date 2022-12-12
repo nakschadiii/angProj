@@ -1,0 +1,13 @@
+<div class="crash-product">
+	<div class="crash-size">
+			<a routerLink="{{ product.id }}" routerLinkActive="active" class="crash-container-img">
+					<div class="crash-img" style="background-image: url({{ product.img }})"></div>
+					<div class="crash-preview" style="background-image: url({{ product.previews[0] }})"></div>
+			</a>
+			<div  class="crash-container">
+					<a class="crash-title-product">
+							<a routerLink="{{ product.id }}" routerLinkActive="active" class="crash-title">{{ product.name }}</a>
+					</a>
+			</div>
+	</div>
+</div>

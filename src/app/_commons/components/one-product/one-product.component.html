@@ -1,0 +1,47 @@
+<div class="content-one-product">
+	<div class="pow-global">
+			<div class="pow-previews-container">
+					<div class="pow-align-previews">
+							<div class="pow-main-img" style="background-image: url({{ product.img }})"></div>
+					</div>
+			</div>
+			<div class="pow-info-container">
+					<div class="pow-align-info">
+							<h1 class="pow-title">{{ product.name }}</h1>
+							<div class="pow-quantity-container">
+									
+							</div>
+							<div class="pow-add-amount">
+									<div class="pow-amount-container">
+											<p>Quantité</p>
+
+											<div class="pow-buttons-container">
+													<button class="pow-button" mat-icon-button (click)="increment()">
+															<!-- <mat-icon fontIcon="add-circle"></mat-icon> -->
+													</button>
+													{{counter}}
+													<button class="pow-button" mat-icon-button (click)="decrement()">
+															<!-- <mat-icon fontIcon="remove-circle"></mat-icon> -->
+													</button>
+											</div>
+									</div>
+							</div>
+							<button mat-flat-button class="pow-add-to-cart">AJOUTER AU PANIER</button>
+							<div class="pow-description-container">
+									<p class="pow-description">Lorem ipsum dolor sit amet, consectetur adip is
+											lobortiscing elitLorem ipsum dolor sit amet, consectetur adip is loborti
+											scing elitLorem ipsum dolor sit amet, consectetur adip is lobortiscing elit
+											Lorem ipsum dolor sit amet, consectetur adip is lobortiscing elitLorem ipsum dolor sit amet,
+											consectetur adip is
+											lobortiscing elitLorem ipsum dolor sit amet, consectetur adip is loborti
+											scing elitLorem ipsum dolor sit amet, consectetur adip is lobortiscing elit
+											Lorem ipsum dolor sit amet, consectetur adip is lobortiscing elitLorem ipsum dolor sit amet,
+											consectetur adip is
+											lobortiscing elitLorem ipsum dolor sit amet, consectetur adip is loborti
+											scing elitLorem ipsum dolor sit amet.
+									</p>
+							</div>
+					</div>
+			</div>
+	</div>
+</div>
